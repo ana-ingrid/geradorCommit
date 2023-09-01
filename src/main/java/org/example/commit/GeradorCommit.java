@@ -26,10 +26,10 @@ public class GeradorCommit {
 
         Git git = new Git(repository);
 
-        int quantidadeCommit = 1;
+        int quantidadeCommit = 5;
 
-        for (int i = 1; i < quantidadeCommit; i++) {
-
+        // Usando o index 1 para melhorar a identificação dos 'arquivoCommit'
+        for (int i = 1; i <= quantidadeCommit; i++) {
             String arquivoCommit = "file_" + i + ".txt";
             String conteudoArquivo = "Conteúdo do commit " + i;
             File file = new File(repository.getDirectory().getParent(), arquivoCommit);
