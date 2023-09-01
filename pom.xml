@@ -14,6 +14,12 @@
             <artifactId>org.eclipse.jgit</artifactId>
             <version>4.11.0.201803080745-r</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.32</version>
+        </dependency>
     </dependencies>
 
     <properties>
